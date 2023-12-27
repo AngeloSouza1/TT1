@@ -1,0 +1,42 @@
+<style>
+  .container {
+    text-align: center;
+    margin: auto;
+    width: 150%; 
+  }
+
+  </style>
+
+<div class="container">
+  <br>
+  <h1>Teste 1</h1>
+  <p>String: arara</p>
+  <p>Resultado: <%= @resultado1 %></p>
+  <p>String: ruby</p>
+  <p>Resultado: <%= @resultado2 %></p>
+  <p>String: Socorram-me subi no ônibus em Marrocos</p>
+  <p>Resultado: <%= @resultado3 %></p>
+</div>
+
+<div class="container">
+  <h1>Teste 1 - Interação Usuário</h1>
+  <%= form_with(url: exemplo_index_path, method: :get) do |form| %>
+    <p>
+      <%= form.label :entrada, 'Digite uma string:' %>
+      <%= form.text_field :entrada %>
+    </p>
+    <%= form.submit 'Verificar Palíndromo', class: 'btn btn-primary' %>
+    <%= link_to 'Voltar', menu_index_path, class: 'btn btn-secondary' %>
+
+    <% end %>
+
+  <% if defined?(@resultado) %>
+    <p>
+    <br>
+    <div class="alert <%= @resultado ? 'alert-success' : 'alert-danger' %> text-primary" role="alert">
+    Resultado: A string "<%= @entrada %>" <%= @resultado ? 'é um palíndromo' : 'não é um palíndromo' %>.
+  </div>
+    </p>
+  <% end %>
+</div>
+
