@@ -14,5 +14,5 @@ No contexto deste desafio, abordamos a implementação e testes de tarefas deter
 
 #### Funcionalidades!
  <a href="https://vimeo.com/898201866/8f66aae93d">
-    <img src="https://img.shields.io/badge/ACESSO AO%20VIDEO DE DEMONSTRAÇÃO  -darkblue" alt="Site">
+    <img src="https://img.shields.io/badge/%20VIDEO DE DEMONSTRAÇÃO  -darkblue" alt="Site">
  </a>
