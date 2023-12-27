@@ -1,6 +1,6 @@
 ## TESTES
 ### *Teste 1 - Palíndromo*
-##### Mentoria Desenvolvendome 
+##### Mentoria DesenvolvendoMe 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/AngeloSouza1/Mentorship_Project/blob/develop/LICENSE)
 
 ## Sobre o projeto
