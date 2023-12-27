@@ -13,4 +13,6 @@ No contexto deste desafio, abordamos a implementação e testes de tarefas deter
 - DataBase : SQLITE
 
 #### Funcionalidades!
-https://vimeo.com/898172295/b1675b18d5
+ <a href="https://vimeo.com/898172295/b1675b18d5">
+    <img src="https://img.shields.io/badge/ACESSO AO%20VIDEO DE DEMONSTRAÇÃO  -darkblue" alt="Site">
+ </a>
