@@ -1,4 +1,3 @@
-# spec/helpers/cpf_helper_spec.rb
 
 require 'rails_helper'
 

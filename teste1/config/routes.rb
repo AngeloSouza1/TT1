@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'home/index', to: 'home#index', as: 'menu_index'
   get 'exemplo/index', to: 'exemplo#index', as: 'exemplo_index'
   get 'tarefa2/index', to: 'tarefa2#index', as: 'tarefa2_index'
+  get 'fatorial/index', to: 'fatorial#index', as: 'fatorial_index'
 end

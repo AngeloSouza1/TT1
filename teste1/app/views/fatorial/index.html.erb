@@ -1,0 +1,48 @@
+<style>
+  .container {
+    text-align: center;
+    margin: auto;
+    width: 150%; 
+  }
+
+  </style>
+
+<div class="container">
+  <br>
+  <h1>Tarefa 3</h1>
+  <p>Fatorial: -5</p>
+  <p>Resultado: <%= @fat1 %></p>
+  <p>Fatorial: 0</p>
+  <p>Resultado: <%= @fat2 %></p>
+  <p>Fatorial: 50</p>
+  <p>Resultado: <%= @fat3 %></p>
+</div>
+
+<div class="container">
+  <h1>Tarefa 3 - Interação Usuário</h1>
+  <%= form_with(url: fatorial_index_path, method: :get) do |form| %>
+    <p>
+      <%= form.label :entrada_fatorial, 'Digite um número:' %>
+      <%= form.text_field :entrada_fatorial %>
+    </p>
+    <%= form.submit 'Verificar Fatorial', class: 'btn btn-primary' %>
+    <%= link_to 'Voltar', menu_index_path, class: 'btn btn-secondary' %>
+
+    <% end %>
+
+    <% if defined?(@resultado_fatorial) %>
+    <p>
+      <br>
+      <div class="alert <%= @resultado_fatorial ? 'alert-success' : 'alert-danger' %> text-primary" role="alert">
+        Resultado:
+        <% if @entrada_fatorial.nil? %>
+          O valor de entrada não pode ser nulo.
+        <% elsif @entrada_fatorial < 0 %>
+          O fatorial não está definido para números negativos.
+        <% else %>
+          O fatorial de <%= @entrada %> é <%= @resultado_fatorial ? @resultado_fatorial : 'indefinido' %>.
+        <% end %>
+      </div>
+    </p>
+  <% end %>
+  

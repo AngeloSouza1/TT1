@@ -14,6 +14,21 @@ module ApplicationHelper
         return false
       end
     end
+    
+    def calcular_fatorial(n)
+      return nil unless /\A\d+\z/.match?(n.to_s)  
+      n = n.to_i
+      return nil if n < 0
+      return 1 if n == 0
+    
+      resultado = 1
+      (1..n).each do |i|
+        resultado *= i
+      end
+      resultado
+    end
+      
+     
 
 end
   
