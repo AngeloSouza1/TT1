@@ -36,7 +36,7 @@ a validação da máscara e deve retornar verdadeiro ou falso.
 cpf = “461.636.517-23”
  
     <p> 
-      <a href="https://github.com/AngeloSouza1/TT1/issues/4">
+      <a href="https://github.com/AngeloSouza1/TT1/issues/7">
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
      </a>
 
