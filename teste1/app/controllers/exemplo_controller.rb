@@ -8,4 +8,4 @@ class ExemploController < ApplicationController
       @resultado = palindromo(@entrada) if @entrada.present?
   
     end
-  end
+end
