@@ -1,7 +1,5 @@
 require 'rails_helper'
 
-
-
   RSpec.describe ApplicationHelper, type: :helper do
     describe '#palindromo' do
       it 'retorna true para a string "radar" que é um palíndromo' do

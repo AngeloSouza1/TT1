@@ -1,0 +1,42 @@
+<style>
+  .container {
+    text-align: center;
+    margin: auto;
+    width: 150%; 
+  }
+
+  </style>
+
+<div class="container">
+  <br>
+  <h1>Tarefa 2</h1>
+  <p>CPF: 461.636.517-23</p>
+  <p>Resultado: <%= @result1 %></p>
+  <p>CPF: 46163651723</p>
+  <p>Resultado: <%= @result2 %></p>
+  <p>CPF: 0000000</p>
+  <p>Resultado: <%= @result3 %></p>
+</div>
+
+<div class="container">
+  <h1>Tarefa 2 - Interação Usuário</h1>
+  <%= form_with(url: tarefa2_index_path, method: :get) do |form| %>
+    <p>
+      <%= form.label :entrada_cpf, 'Digite uma string:' %>
+      <%= form.text_field :entrada_cpf %>
+    </p>
+    <%= form.submit 'Verificar CPF', class: 'btn btn-primary' %>
+    <%= link_to 'Voltar', menu_index_path, class: 'btn btn-secondary' %>
+
+    <% end %>
+
+  <% if defined?(@resultado) %>
+    <p>
+    <br>
+    <div class="alert <%= @resultado ? 'alert-success' : 'alert-danger' %> text-primary" role="alert">
+    Resultado: A string "<%= @entrada %>" <%= @resultado ? "CPF válido" : "CPF inválido" %>.
+  </div>
+    </p>
+  <% end %>
+</div>
+
