@@ -10,7 +10,7 @@ No contexto deste desafio, abordamos a implementação e testes de tarefas deter
 - Ruby version : 3.0.2 
 - Rails version: 7.1.2
 - System Linux:  Linux Mint 21.2
-- DataBase : ?
+- DataBase : Sqlite3
 
 #### Funcionalidades!
  <a href="https://testes1.fly.dev">
@@ -22,16 +22,11 @@ No contexto deste desafio, abordamos a implementação e testes de tarefas deter
  - Faça uma função que receba uma string e retorne verdadeiro caso ela seja palíndromo,
 do contrário ela deve retornar falso. (palíndromos são palavras ou frases que podem ser
 lidas da esquerda para a direita ou da direita para a esquerda.)
-
-
 </p>
-
 <p> 
    <a href="https://github.com/AngeloSouza1/TT1/issues/4">
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
     </a>
-
-
 
 ### *Tarefa 2 - CPF*
  <p align="left">
@@ -59,12 +54,20 @@ Regras
 ● n < 0 deve retornar nil
 ● n = 0 deve retornar 1
 ● n > 0 deve retornar n!
-
 </p> 
     <p> 
       <a href="https://github.com/AngeloSouza1/TT1/issues/9">
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
      </a>
-
+     
+### *Tarefa 4 - Query SQL*
+ <p align="left"> 
+ - A partir das tabelas do banco de dados abaixo, escreva uma query sql que através de
+join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenando os por cpf.
+</p>
+<p> 
+   <a href="https://github.com/AngeloSouza1/TT1/issues/12">
+       <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
+    </a>
 
 
