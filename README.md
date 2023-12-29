@@ -66,7 +66,14 @@ Regras
 join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenando os por cpf.
 </p>
 <p> 
-   <a href="https://github.com/AngeloSouza1/TT1/issues/12">
+- Tabela employees
+<p align="center">
+  <img src="">
+</p>
+ 
+ 
+ 
+ <a href="https://github.com/AngeloSouza1/TT1/issues/12">
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
     </a>
 
