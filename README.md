@@ -63,7 +63,7 @@ Regras
 ### *Tarefa 4 - Query SQL*
  <p align="left"> 
  - A partir das tabelas do banco de dados abaixo, escreva uma query sql que através de
-join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenando os por cpf.
+join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenandos por cpf.
 </p>
 <p> 
 - Tabela employees
@@ -78,11 +78,28 @@ join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenando o
 <p align="left">
   <img src="https://github.com/AngeloSouza1/tmp/blob/main/tb3.png">
 </p>
-  
- 
- 
+
  <a href="https://github.com/AngeloSouza1/TT1/issues/12">
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
     </a>
 
+### *Tarefa 5 - CLASSES*
+ <p align="left">
+ -   Usando as tabelas do banco de dados do exercício anterior, escreva as classes das
+models Employee, Team e JobTitle, declare as associações das models e escreva a mesma
+query com a sintaxe do ActiveRecord.
+ 
+</p>
+    <p> 
+      <a href="https://github.com/AngeloSouza1/TT1/issues/13">
+       <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
+     </a>
 
+### *Tarefa 6 - COMANDO: a ||= b*
+ <p align="left">
+ -  Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: a ||= b
+</p>
+    <p> 
+      <a href="https://github.com/AngeloSouza1/TT1/issues/14">
+       <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
+     </a>
