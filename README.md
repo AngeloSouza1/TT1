@@ -41,7 +41,7 @@ cpf = “461.636.517-23”
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
      </a>
 
-### *Tarefa 3 - FATORIAL*
+### *Tarefa 3 - Fatorial*
  <p align="left">
  - O fatorial de um número n!, é definido como o produto de todos os números inteiros de 1
 a n. Por exemplo: 5! é 5 * 4 * 3 * 2 * 1 = 120
@@ -83,7 +83,7 @@ join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenandos 
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
     </a>
 
-### *Tarefa 5 - CLASSES*
+### *Tarefa 5 - Classes*
  <p align="left">
  -   Usando as tabelas do banco de dados do exercício anterior, escreva as classes das
 models Employee, Team e JobTitle, declare as associações das models e escreva a mesma
@@ -95,11 +95,24 @@ query com a sintaxe do ActiveRecord.
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
      </a>
 
-### *Tarefa 6 - COMANDO: a ||= b*
+### *Tarefa 6 - Comando: a ||= b*
  <p align="left">
  -  Descreva o que faz o seguinte comando e por que ele é amplamente utilizado: a ||= b
 </p>
     <p> 
       <a href="https://github.com/AngeloSouza1/TT1/issues/14">
+       <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
+     </a>
+
+ ### *Tarefa 7 - Métodos*
+ <p align="left">
+ -  Qual a principal diferença entre estes dois métodos?
+   - Métodos
+<p align="left">
+  <img src="https://github.com/AngeloSouza1/tmp/blob/main/metodos.png">
+</p>
+</p>
+    <p> 
+      <a href="https://github.com/AngeloSouza1/TT1/issues/15">
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
      </a>
