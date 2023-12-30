@@ -67,10 +67,18 @@ join, retorne o nome completo, cpf, equipe e cargo dos colaboradores ordenando o
 </p>
 <p> 
 - Tabela employees
-<p align="center">
+<p align="left">
   <img src="https://github.com/AngeloSouza1/tmp/blob/main/tb1">
 </p>
- 
+- Tabela teams
+<p align="left">
+  <img src="https://github.com/AngeloSouza1/tmp/blob/main/tb2.png">
+</p>
+ - Tabela job_titles
+<p align="left">
+  <img src="https://github.com/AngeloSouza1/tmp/blob/main/tb3.png">
+</p>
+  
  
  
  <a href="https://github.com/AngeloSouza1/TT1/issues/12">
