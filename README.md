@@ -116,3 +116,21 @@ query com a sintaxe do ActiveRecord.
       <a href="https://github.com/AngeloSouza1/TT1/issues/15">
        <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
      </a>
+
+ ### *Tarefa 8 - Self*
+ <p align="left">
+ -  Qual o significado do self nas classes ruby?
+    <p> 
+      <a href="https://github.com/AngeloSouza1/TT1/issues/16">
+       <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
+     </a>
+
+ ### *Tarefa 9 - Linguagem Dinamicamente Tipada*
+ <p align="left">
+ -  Quais as vantagens e desvantagens do ruby ser uma linguagem dinamicamente tipada?
+    <p> 
+      <a href="https://github.com/AngeloSouza1/TT1/issues/17">
+       <img src="https://img.shields.io/badge/Ver%20Solução-darkblue" alt="Ver Solução">
+     </a>     
+
+     
